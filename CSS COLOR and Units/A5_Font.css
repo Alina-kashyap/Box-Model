@@ -1,0 +1,28 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+}
+/* h1 {
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 50px;
+} */
+.heading {
+  font-family: "Akronim", cursive;
+  text-align: center;
+}
+.subheading {
+  font-style: italic;
+}
+.first {
+  /* font-weight: 800;
+  font-weight: bold; */
+  text-indent: 40px;
+}
+.second {
+  /* font-weight: 600;
+  font-weight: lighter; */
+  text-align: left;
+}

@@ -1,0 +1,17 @@
+/* h1 {
+  color: blue;
+  font-size: 20px;
+} */
+* {
+  margin: 0px;
+}
+.sample {
+  background: #939e88;
+  font-size: 3rem;
+  height: 100px;
+  color: #894567;
+}
+.closure {
+  height: calc(100vh - 100px);
+  background: #ddeeff;
+}

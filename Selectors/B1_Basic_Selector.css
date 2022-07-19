@@ -1,0 +1,20 @@
+* {
+  color: red;
+}
+
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: blue;
+}
+
+p {
+  letter-spacing: 2px;
+}

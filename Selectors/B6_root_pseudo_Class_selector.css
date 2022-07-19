@@ -1,0 +1,11 @@
+:root {
+  font-size: 12px;
+}
+
+.absolute {
+  font-size: 30px;
+}
+
+.relative {
+  font-size: 1.5rem;
+}

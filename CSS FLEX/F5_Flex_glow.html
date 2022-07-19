@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order_property</title>
+    <link rel="stylesheet" href="./F3_align_content_Axis.css">
+    <style>
+
+        /* Flex glow all children hava flex glow:0 */
+         .container {
+            display: flex;
+            flex-wrap: wrap;
+        } 
+/*
+        .box{
+            flex-grow: 1;
+        }
+        .box2{
+            flex-grow: 4;
+        }
+        */
+
+        /* Flex Shrink all children hava flex-shirnk :1 */
+        .box2{
+            width:200px;
+            flex-shrink: 0;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">A</div>
+        <div class="box box2">B</div>
+        <div class="box box3">C</div>
+        <div class="box box4">D</div>
+        <div class="box box5">E</div>
+    </div>
+</body>
+
+</html>

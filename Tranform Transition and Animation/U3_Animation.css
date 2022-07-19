@@ -1,0 +1,76 @@
+div {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+  /* background: rgb(43, 255, 0); */
+}
+
+.transition {
+  background: red;
+  transition: all 10s linear;
+}
+
+.transition:hover {
+  background: yellow;
+  transform: translateX(120px);
+}
+
+.animation {
+  background: rgb(21, 255, 40);
+  /* animation-name: move;
+  animation-duration: 10sec;
+  animation-iteration-count: 3; */
+  /* Animation Shorthand */
+  animation: move 1s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(50px);
+  }
+  25% {
+    transform: translateX(180px);
+    background: red;
+  }
+  50% {
+    transform: translateX(250px);
+    background: yellow;
+  }
+  75% {
+    transform: translateX(-180px);
+    background: blue;
+  }
+  100% {
+    transform: translateX(-50px);
+    background: purple;
+  }
+}
+
+/* .animation {
+  background: rgb(21, 255, 0);
+  /* animation-name: move;
+  animation-duration: 10sec;
+  animation-iteration-count: 3; */
+/*  Animation Shorthand */
+/*animation: move 1sec infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px); */
+/* background: red;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: yellow;
+   } 
+  100% {
+    transform: translateX(20px);
+    background: blue; 
+  }
+}
+ */

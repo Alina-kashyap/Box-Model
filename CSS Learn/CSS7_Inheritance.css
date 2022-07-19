@@ -1,0 +1,20 @@
+/*  Inheritance in Css usually Children Usually inherit styles from the parent,
+unless have their own styles */
+
+body {
+  color: firebrick;
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.special {
+  color: indigo;
+}
+h2 {
+  color: palevioletred;
+}
+div {
+  color: indianred;
+  text-transform: uppercase;
+}

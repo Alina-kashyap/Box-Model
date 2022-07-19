@@ -1,0 +1,35 @@
+/* IF we use this all properties with div then the width,height,margins all applied but in case of span it doesn't work */
+/* span {
+  background: #906745;
+  color: #fff;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  color: #f15025;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background: #343434;
+  padding: 5px;
+  margin: 20px 20px;
+  display: block;
+}
+/*                               This is specific if we only target ul under a then all the ul under a have that color and if we go to specific ul under li under a then it has different color  */
+/* ul a {
+  color: #5e0404ef;
+} */

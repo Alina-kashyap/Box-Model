@@ -1,0 +1,42 @@
+:root {
+  --primaryColor: #f15025;
+  --cl-secondary: coral;
+  --tr-tertiory: #f15098;
+  --hr-color: blue;
+  --mainTransition: all 1s linear;
+  --mainSpacing: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  color: var(--primaryColor);
+}
+h2 {
+  color: var(--cl-secondary);
+}
+h3 {
+  color: var(--tr-tertiory);
+  transition: var(--mainTransition);
+}
+
+p {
+  letter-spacing: var(--mainSpacing);
+  transition: var(--mainTransition);
+}
+
+h3:hover {
+  color: var(--hr-color);
+}
+p:hover {
+  color: var(--hr-color);
+}
+
+div {
+  --primaryGreen: green;
+}
+
+.main-text {
+  color: var(--primaryGreen);
+}

@@ -1,0 +1,23 @@
+/* div {
+  color: red;
+  background: ivory;
+} */
+.first {
+  color: tomato;
+  background: lightcyan;
+  padding: 10px 5px 2px 10px;
+}
+.second {
+  color: mediumblue;
+  background: powderblue;
+}
+.high {
+  color: darkblue;
+  text-transform: uppercase;
+  background: white;
+}
+.light {
+  color: maroon;
+  text-transform: uppercase;
+  background: white;
+}

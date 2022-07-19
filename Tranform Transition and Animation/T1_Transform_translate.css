@@ -1,0 +1,20 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: #987654;
+  transform: translate3d(12px, 50%, 3em);
+}
+
+.two {
+  background: #345678;
+  transform: translateX(-2em);
+}
+
+.three {
+  background: yellow;
+  transform: translateY(10rem);
+}

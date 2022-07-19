@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+}
+.sample {
+  background: #939e88;
+  font-size: 3rem;
+  height: 100px;
+  color: #894567;
+}
+.closure {
+  /* height: calc(100vh - 100px); */
+  min-width: calc(100vh-100px);
+  max-height: 100vh;
+  background: #ddeeff;
+}
+.last {
+  height: 25rem;
+  width: 20rem;
+  /*  If the height and width is not more and the text is overflowing then we use overflow property */
+  background: #067df5;
+  overflow: scroll;
+}

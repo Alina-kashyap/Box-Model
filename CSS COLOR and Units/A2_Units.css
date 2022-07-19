@@ -1,0 +1,67 @@
+/*  First video                      Pixel                         */
+/* h1 {
+  font-size: 60px;
+  background: darkseagreen;
+  color: rgba(177, 28, 107, 0.863);
+  width: 400px;
+  height: 350px;
+} */
+/*                                        Second Video on Units  percentage                       */
+/* .outer {
+  width: 500px;
+  height: 400px;
+  background: fuchsia;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+} */
+
+/*                                       Third Video  EM                                  */
+
+/* .absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 2em;
+} */
+
+/*             Fourth video REM                                                */
+
+/*  Html is the root element of the rem so relative class is depend on html */
+/* html {
+  font-size: 50px;
+}
+div {
+  font-size: 20px;
+}
+.absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 0.5rem;
+} */
+/*        Vh and Vw             */
+/* 
+VIEWPORT UNITS
+vh - height - percent of the screen, 
+vw - width - percent of the screen
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sun {
+  background: green;
+  height: 100vh;
+  width: 100vw;
+}
+.planet {
+  background: blue;
+  height: 43vh;
+  width: 54vw;
+}

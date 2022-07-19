@@ -1,0 +1,32 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  position: relative;
+  margin: 120px 100px;
+}
+
+div:hover {
+  background: coral;
+  border-radius: 360px;
+  transform: scale(1.2);
+}
+
+.one {
+  background: #987654;
+  transition-property: background, border-radius;
+  transition-duration: 6s, 5s;
+  transition-delay: 2s;
+}
+
+.two {
+  background: #345678;
+  transition-property: background, border-radius;
+  transition-duration: 4s;
+}
+
+.three {
+  background: yellow;
+  transition-property: background, border-radius;
+  transition-duration: 4s;
+}

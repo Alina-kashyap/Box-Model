@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="./F1_flex.css">
+    <style>
+        .container{
+           
+            /* 1.................................... Flex Box */
+             /*  it takes more space and its spanning all across the block  */
+            /* flex, 
+            /*  it only contains block level elements  inline-flex */
+            /* 2................................. Flex Direction */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* 3.........................................Flex-wrap*/
+            /* nowrap */
+            /* wrap */
+            /* wrap-reverse */
+            /* 4.......................................... Justify Content*/
+            /* flex-start(default) */
+            /* flex-end */
+            /* space between */
+            /* space around */
+            /* space evenly */
+            /* center */
+            /* 5..............................Align Items vertical alignment*/
+            /*  stretch (default) */
+            /* center */
+            /* flex-start */
+            /* flex-end */
+            /* baseline */
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+
+         }
+    </style>
+</head>
+<body>
+    <!-- div.box.box$*6 -->
+    <!--  Parent = flex-container -->
+    <div class="container">
+        <!-- Child = flex-items -->
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    <!-- <div class="box generic">G</div>
+    <div class="box generic">G</div>
+    <div class="box generic">G</div>
+    <div class="box generic">G</div>
+    <div class="box generic">G</div> -->
+    </div>
+    <a href="./F2_Hero_project.html">Hero Project</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.block {
+  background: #345678;
+  color: #fff;
+  /*                                     First video                                         */
+  /* display: inline; */
+  /*                                    Second video                                         */
+  width: 300px;
+  margin: 0 auto;
+}
+
+.inline {
+  background: #c121c7;
+  color: #eee;
+  /*                                     First video                                         */
+  /* display: inline; */
+  /* display: block; */
+  /*                                     Second video                                         */
+}
+body {
+  text-align: center;
+}

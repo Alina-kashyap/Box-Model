@@ -1,0 +1,14 @@
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: black;
+}
+.header h1 {
+  color: yellow;
+}
+
+.header > h1 {
+  color: palegreen;
+}

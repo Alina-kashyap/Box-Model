@@ -1,0 +1,17 @@
+:root {
+  margin: 20px;
+  padding: 20px;
+}
+
+.fa-home {
+  color: brown;
+}
+
+/*  second class in i attribute so here we override fa-home */
+.simple-icon {
+  color: #892316;
+}
+.social-icon {
+  font-size: 30px;
+  color: #f15025;
+}

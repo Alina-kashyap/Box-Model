@@ -1,0 +1,54 @@
+/* Color  */
+/* Background Color */
+/* RGB stands for Red Greee and Blue */
+/*  its range is 0-255 */
+.first {
+  /*                               Simple we choose the color                                */
+  /* color: white;
+  background-color: teal; */
+  /*                                 We apply color using RGB                                 */
+  /* color: rgb(255, 56, 67);
+  background: rgb(0, 0, 233); */
+  /*                                Apply color using RGBA                                    */
+  /* color: rgba(255, 0, 0, 1); */
+  /*                       Apply color using Hexadecimal                                    */
+
+  color: #ff00ff;
+  background: #eeddff;
+}
+.second {
+  /*                               Simple we choose the color                                */
+  /* color: crimson;
+  background: darkgoldenrod; */
+  /*                                 We apply color using RGB                                 */
+  /* color: rgb(37, 88, 114);
+  background: rgb(255, 255, 255); */
+  /*    
+                              Apply color using RGBA                                    */
+  /* color: rgba(255, 0, 0, 0.72); */
+  /*                       Apply color using Hexadecimal                                    */
+  color: #ec640f;
+  background: #345678;
+}
+.three {
+  /*                                 We apply color using RGB                                 */
+  /* color: rgb(240, 80, 80);
+  background: rgb(100, 201, 188); */
+  /*                                Apply color using RGBA                                    */
+  /* color: rgba(255, 0, 0, 0.5); */
+  /*                       Apply color using Hexadecimal                                    */
+  color: #f72585;
+  background: #898989;
+}
+.four {
+  /*                                Apply color using RGBA                                    */
+  /* color: rgba(45, 182, 17, 0.507);
+  background: rgba(0, 0, 0, 1); */
+
+  /*                       Apply color using Hexadecimal                                    */
+  color: #6789f6;
+  background: #761234;
+}
+body {
+  background: #ffaa22;
+}

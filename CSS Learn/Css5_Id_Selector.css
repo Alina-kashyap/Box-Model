@@ -1,0 +1,19 @@
+/*                                  ID Selector                                              */
+#title {
+  color: mediumvioletred;
+  background: lightpink;
+}
+#footer {
+  color: midnightblue;
+  background: lightskyblue;
+}
+
+/*                                  Class Selector                                            */
+.green {
+  color: green;
+  background: lightgreen;
+}
+.red {
+  color: red;
+  background: lightgoldenrodyellow;
+}

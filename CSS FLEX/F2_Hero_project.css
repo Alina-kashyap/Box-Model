@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+.hero {
+  min-height: 100vh;
+  background: url(./images/beach1.jpeg);
+  background-position: center;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #3ca8df;
+}
+.banner {
+  min-height: 100vh;
+  background: url(./images/beach.jpeg);
+  background-position: center;
+  /* background-size: contain; */
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #db250d;
+}
+.linkpage {
+  background: linear-gradient(#897ff3, #ddaa44, #bbff12, #ffccff);
+}

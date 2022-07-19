@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create dash</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: rgb(236, 234, 234);
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 6px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child {
+        width: 320px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        margin: 5px 10px;
+    }
+
+    .imgdiv {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .imgdiv img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .detail {
+        width: 100%;
+        height: 40%;
+        padding: 8px;
+    }
+
+    .lasttext {
+        width: 100%;
+        height: fit-content;
+        padding: 0px 8px;
+    }
+
+    .lasttext h5 {
+        padding-left: 10px;
+        border-left: 3px solid red;
+        text-transform: uppercase;
+        opacity: 0.7;
+        font-weight: 400;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="child">
+            <div class="imgdiv"><img src="./Image/fourth.jpeg" alt="">" alt=""></div>
+            <div class="detail">
+                <h4>Plucking red flowers by a lady</h4>
+            </div>
+            <div class="lasttext">
+                <h5>TECHNOLOGY</h5>
+            </div>
+        </div>
+        <div class="child">
+            <div class="imgdiv"><img src="./Image/first.jpeg" alt=""></div>
+            <div class="detail">
+                <h4>Beautiful building of the city </h4>
+            </div>
+            <div class="lasttext">
+                <h5>Buildings</h5>
+            </div>
+        </div>
+        <div class="child">
+            <div class="imgdiv"><img src="./Image/second.jpeg" alt=""></div>
+            <div class="detail">
+                <h4>Gady gaga a Professional singer</h4>
+            </div>
+            <div class="lasttext">
+                <h5>Profession</h5>
+            </div>
+        </div>
+        <div class="child">
+            <div class="imgdiv"><img src="./Image/third.jpeg" alt=""></div>
+            <div class="detail">
+                <h4>River flows between the two mountains </h4>
+            </div>
+            <div class="lasttext">
+                <h5>Flowing</h5>
+            </div>
+        </div>
+        <div class="child">
+            <div class="imgdiv"><img src="./Image/fourth.jpeg" alt=""></div>
+            <div class="detail">
+                <h4>Ranbow cover under the mountain</h4>
+            </div>
+            <div class="lasttext">
+                <h5>Mountain</h5>
+            </div>
+        </div>
+        <div class="child">
+            <div class="imgdiv"><img src="./Image/fifth.jpeg" alt=""></div>
+            <div class="detail">
+                <h4>Volcanic Eruption on the mountain </h4>
+            </div>
+            <div class="lasttext">
+                <h5>Erutption</h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

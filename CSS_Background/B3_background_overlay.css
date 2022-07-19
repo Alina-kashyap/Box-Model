@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: #fff;
+  border: 2px solid #bbc1ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.big-img {
+  background: url("./Images/bgimg.jpeg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Images/bgimg.jpeg"), center/cover no-repeat fixed;
+
+  /*  To apply the short hand for these properties we use in this form first center/cover no-repeat fixed */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+.small-img {
+  background: url("./Images/folder.jpeg") center/cover no-repeat fixed;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+                             Using short hand of these properties */
+}
+
+.colorZilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0707+37,e552d4+50,e552d4+57,e552d4+60,e552d4+65,aaa427+71,aaa427+82,6b0e10+91,1e69de+100 */
+  background: rgb(255, 7, 7); /* Old browsers */
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 7, 7, 1) 37%,
+    rgba(229, 82, 212, 1) 50%,
+    rgba(229, 82, 212, 1) 57%,
+    rgba(229, 82, 212, 1) 60%,
+    rgba(229, 82, 212, 1) 65%,
+    rgba(170, 164, 39, 1) 71%,
+    rgba(170, 164, 39, 1) 82%,
+    rgba(107, 14, 16, 1) 91%,
+    rgba(30, 105, 222, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 7, 7, 1) 37%,
+    rgba(229, 82, 212, 1) 50%,
+    rgba(229, 82, 212, 1) 57%,
+    rgba(229, 82, 212, 1) 60%,
+    rgba(229, 82, 212, 1) 65%,
+    rgba(170, 164, 39, 1) 71%,
+    rgba(170, 164, 39, 1) 82%,
+    rgba(107, 14, 16, 1) 91%,
+    rgba(30, 105, 222, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 7, 7, 1) 37%,
+    rgba(229, 82, 212, 1) 50%,
+    rgba(229, 82, 212, 1) 57%,
+    rgba(229, 82, 212, 1) 60%,
+    rgba(229, 82, 212, 1) 65%,
+    rgba(170, 164, 39, 1) 71%,
+    rgba(170, 164, 39, 1) 82%,
+    rgba(107, 14, 16, 1) 91%,
+    rgba(30, 105, 222, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0707', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

@@ -1,0 +1,13 @@
+.special {
+  color: red;
+}
+p {
+  color: darkblue;
+}
+#heading {
+  color: darkgreen;
+}
+
+.heading {
+  color: darkgoldenrod;
+}

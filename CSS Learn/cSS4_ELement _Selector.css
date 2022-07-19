@@ -1,0 +1,25 @@
+/*                                    Element Selector                                         */
+/* h1 {
+  color: crimson;
+}
+h2 {
+  color: darkblue;
+}
+p {
+  color: gray;
+  width: 50%;
+}
+span {
+  color: lightsalmon;
+}
+span:hover {
+  color: royalblue;
+} */
+
+/*                                     Grouped Selector                                         */
+
+h1,
+h2,
+p {
+  color: skyblue;
+}

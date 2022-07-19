@@ -1,0 +1,25 @@
+div {
+  border: 2px solid salmon;
+  background: #c5f0f0;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: right;
+}
+
+.one {
+  background: crimson;
+  color: #eee;
+  position: static;
+  text-align: left;
+}
+
+.two {
+  background: rgb(67, 100, 233);
+  color: #eee;
+}
+
+.special {
+  background: #567812;
+  color: white;
+  font-size: 30px;
+}

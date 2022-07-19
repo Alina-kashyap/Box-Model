@@ -1,0 +1,46 @@
+div {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: inline-block;
+}
+.one {
+  background: linear-gradient(
+    to top,
+    red,
+    green,
+    blue,
+    #234567,
+    rgb(234, 122, 179)
+  );
+}
+
+.two {
+  background: linear-gradient(to bottom, orange, white, green);
+}
+
+.three {
+  background: linear-gradient(345deg, red, yellow, black);
+}
+
+.four {
+  background: linear-gradient(
+    to top,
+    rgb(229, 255, 0),
+    rgb(0, 255, 64),
+    rgba(15, 27, 131, 0.747)
+  );
+}
+
+.five {
+  background: linear-gradient(
+    to top left,
+    rgb(229, 255, 0) 30%,
+    rgb(0, 255, 64) 35%,
+    rgba(15, 27, 131, 0.747) 35%
+  );
+}
+
+.six {
+  background: linear-gradient(rgba(2, 0, 0, 0.2), rgba(0, 0, 0, 0.98));
+}

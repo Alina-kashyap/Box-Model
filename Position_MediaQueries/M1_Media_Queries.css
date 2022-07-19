@@ -1,0 +1,50 @@
+body {
+  background: yellow;
+}
+.banner {
+  background: #bfa;
+}
+
+h1 {
+  color: rgb(7, 63, 65);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* @media screen and (min-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    margin-top: 60px;
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+} */
+
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    margin-top: 60px;
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+/* @media screen and (min-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    margin-top: 60px;
+    background: pink;
+  }
+} */
